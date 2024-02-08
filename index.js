@@ -15,7 +15,12 @@ const schema = new GraphQLSchema({
             message: { 
                 type: GraphQLString,
                 resolve: () => 'Hello World...........'
+            },
+            person: { 
+                type: GraphQLString,
+                resolve: () => 'Lohitha Siripurapu'
             }
+
         })
     })
 });
